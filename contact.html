@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Banner -->
+            <img src="assets/images/su_banner.gif" alt="Striped Umbrella Banner">
+            <nav id="main-nav"> 
+                <!-- NAVIGATION ITEMS -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li> 
+                    <li><a href="services.html">Our Services</a></li> 
+                    <li><a href="contact.html">Contact Us</a></li> 
+                </ul>
+            </nav>
+        </header>
+
+        <main class="content">
+            <!-- MAIN PAGE CONTENT HERE -->
+
+            <!-- HTML Form with Method and Action attribute -->
+            <form action="https://formdump.codeinstitute.net" method="POST">
+
+                <!-- Personal Information fieldset - Form Semantics -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <div>
+                        <label for="first-name">*First Name:</label>
+                        <input type="text" id="first-name" name="first-name" required maxlength="25">
+                        <br><br>
+                        <label for="last-name">*Last Name:</label>
+                        <input type="text" id="last-name" name="last-name" required maxlength="25">
+                        <br><br>
+                        <label for="email">*Email:</label>
+                        <input type="email" id="email" name="email" required maxlength="35">
+                        <br><br> 
+                    </div>         
+
+                    <div>
+                        Please select the music genre(s) that you like <br>
+
+                        <!-- Checkbox input type -->
+                        <input type="checkbox" name="music" value="classic" id="classic">
+                        <label for="classic">Classic</label>
+                        <br>
+                        <input type="checkbox" name="music" value="jazz" id="jazz">
+                        <label for="jazz">Jazz</label>
+                        <br>
+                        <input type="checkbox" name="music" value="blues" id="blues">
+                        <label for="blues">Blues</label>
+                        <br>
+                        <input type="checkbox" name="music" value="instrumental" id="instrumental">
+                        <label for="instrumental">Instrumental</label>
+                        <br>                        
+
+                    </div>
+
+                </fieldset><br>
+
+                <!-- Feedback fieldset -->
+                <fieldset>
+                    <legend>Your Message</legend>
+
+                    <!-- Dropdown Menu input - Select -->
+                    <div>
+                        <label for="info-source">How did you hear about us?</label>
+                        <select name="info-source" id="info-source">
+                            <option value="our-website">Our Website</option> <option value="friends" selected>Friends</option>
+                            <option value="tv">TV Adv.</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div><br>                 
+
+                    <div>
+                        Would you recommend us to your friends? <br>
+
+                        <!-- Radio input type -->
+                        <input type="radio" id="yes" name="recommend" value="yes" checked> <!-- default user value with "checked" attribute"-->
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="no" name="recommend" value="no">
+                        <label for="no">No</label>
+                        <input type="radio" id="maybe" name="recommend" value="maybe">
+                        <label for="maybe">Maybe</label>
+                    </div>
+
+                    <!-- TextArea user input -->
+                    <div>
+                        <label for="request">Your request:</label><br>
+                        <textarea id="request" name="request" cols="50" rows="10">
+                        </textarea>
+                    </div><br>
+
+                    <div>
+                        <input type="checkbox" id="opt-in" name="opt-in" checked>
+                        <label for="opt-in">Sign me up for email updates</label>
+                    </div><br>
+
+                    <!-- Submit button -->
+                    <input type="submit" name="submit" value="Submit">
+
+                </fieldset>                
+
+            </form><br>
+
+            <!-- Embedded Google Map with iframe -->            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23064.90842067427!2d-79.59585614445798!3d43.72896788442393!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2e0b64e1140d%3A0xd11156503e310196!2sSpa%20at%20Four%20Seasons%20Toronto!5e0!3m2!1sen!2sca!4v1612934956896!5m2!1sen!2sca" width="600" height="300" title="Spa at Four Seasons Toronto Google Map" >
+                <p>Sorry, Your browser does not support iframe element!</p>
+            </iframe>
+
+        </main><br><hr>
+
+        <footer>
+            <!-- Footer Content Here -->
+            Copyright © 2021 Canadian Business College - HTML major assignment - created by: Kenneth M. Adjei - All rights reserved
+        </footer>
+    </div>   
+</body>
+</html>
