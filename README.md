@@ -1,86 +1,50 @@
+![CBC Logo](https://canadianbusinesscollege.com/wp-content/uploads/2020/09/CBC-New-Logo-Website.png)
+![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+
 # HTML-assignment
-First assignment for HTML Module @ Canadian Business College
 
-# Your Project's Name
-
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
+First assignment for HTML Module @ Canadian Business College, focused on the creation of a 4 paged semantic website using only HTML.
  
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The target audience for this project was for attracting clients interested in resorts with full spa services. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+The clients will consume the contents on the website feeling well informed and positive about making reservations at the resort.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+The website has 4 webpages geared towards achieving the company's goal attracting clients.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
-
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
-
+- **Home** page - Provides overview of attractive qualities of the resort.
+- **About Us** page - Presents users with more information about the company and knowledge on what they do.
+- **Our Services** page - Showcases the services that the resort has to offer for the clients interested.
+- **Contact Us** page - Provides basic information about location and other ways to conact the Striped Umbrella Spa Resort.
+ - Users can also send information via the online form for the resort to learn more about their clients in order to provide better services.
+ 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
+- [HTML](https://www.w3schools.com/html/default.asp)
+ - The assigment uses HTML to build basic structure of the website
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+1. Webpage validation:
+ 1. Go to source page for all four web pages
+ 2.  Run each source code through `[W3C Markup Validator](https://validator.w3.org/)` and verify code passes the mark up for best practice
+ 3.  The errors mainly found was using outdated table attributes and the embedded text for the iframe element 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
+You can view the live project here > `[📺 Go Live 📺](https://kmadjei.github.io/HTML-assignment/)`
 
 
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
-### Media
-- The photos used in this site were obtained from ...
+- The text and media content were provided by [@anmarjarjees](https://github.com/anmarjarjees) the school instructor at CBC.
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I learned alot about semantic website design from the lessons covered by CBC and Code Institute.
 
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
