@@ -31,12 +31,12 @@ The website has 4 webpages geared towards achieving the company's goal attractin
 
 1. Webpage validation:
  1. Go to source page for all four web pages
- 2.  Run each source code through `[W3C Markup Validator](https://validator.w3.org/)` and verify code passes the mark up for best practice
+ 2.  Run each source code through [W3C Markup Validator](https://validator.w3.org/) and verify code passes the mark up for best practice
  3.  The errors mainly found was using outdated table attributes and the embedded text for the iframe element 
 
 ## Deployment
 
-You can view the live project here > `[📺 Go Live 📺](https://kmadjei.github.io/HTML-assignment/)`
+You can view the live project here > [📺 Go Live 📺](https://kmadjei.github.io/HTML-assignment/)
 
 
 ## Credits
